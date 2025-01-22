@@ -17,7 +17,7 @@ def gen_function_exp(x):
     return 1 if y < 1 else round(y)
 
 def gen_function_poi(x):
-    y = np.random.poisson(x)
+    y = np.random.exponential(x)
     return 1 if y < 1 else round(y)
 
 # Definizione delle classi necessarie
